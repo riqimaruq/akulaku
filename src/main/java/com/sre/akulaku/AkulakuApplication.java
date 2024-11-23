@@ -10,13 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class AkulakuApplication {
 
 	public static void main(String[] args) {
-
 		SpringApplication.run(AkulakuApplication.class, args);
-
 	}
 	@RequestMapping("/")
-	public String hellowWorld(){
-		return "hello world!";
+	public String helloworld(){
+		return "Hello World!";
 	}
 
 }
